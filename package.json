@@ -1,0 +1,33 @@
+{
+  "name": "ws-service",
+  "version": "0.0.0",
+  "description": "A websocket server piping io to shell commands and run as a service.",
+  "main": "./lib/index.js",
+  "bin": {
+    "ws-service": "./bin/ws-service.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websocket",
+    "service",
+    "server",
+    "io",
+    "http"
+  ],
+  "author": "Guill <gcsboss@gmail.com>",
+  "license": "ISC",
+  "preferGlobal": true,
+  "dependencies": {
+    "node-yaml": "^3.1.1",
+    "ws": "^5.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/GCSBOSS/ws-service/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GCSBOSS/ws-service.git"
+  }
+}
