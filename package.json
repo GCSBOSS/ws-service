@@ -1,6 +1,6 @@
 {
   "name": "ws-service",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A websocket server piping io to shell commands and run as a service.",
   "main": "./lib/index.js",
   "bin": {
