@@ -48,5 +48,4 @@ if(process.argv[2] == "run"){
     const WSServer = require('../lib/index.js');
     wss = new WSServer(process.argv[3]);
     wss.listen();
-    return;
 }
